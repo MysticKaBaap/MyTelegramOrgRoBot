@@ -4,7 +4,7 @@ from translation import Translation
 
 class Config:
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", None)
+    TG_BOT_TOKEN = os.environ.get("1597719735:AAHbtHtIEiC7oh5HPysU6mUVVeLjlotnh2s", None)
     # required for running on Heroku
     URL = os.environ.get("URL", "")
     PORT = int(os.environ.get("PORT", 5000))
@@ -35,7 +35,7 @@ class Config:
         "created using https://telegram.dog/UseTGxBot"
     )
     #
-    FOOTER_TEXT = os.environ.get("FTEXT", "❤️ @SpEcHlDe")
+    FOOTER_TEXT = os.environ.get("FTEXT", "❤️ @MysticOp")
     # the strings used in the different messages
     # in the bot
     START_TEXT = os.environ.get("START_TEXT", Translation.START_TEXT)
